@@ -13,6 +13,7 @@ Acá va una explicación de por qué hice todo esto y demás.
 ## Explore
 
 {{< cards >}}
+  {{< card link="clases" title="Clases" icon="library" >}}
   {{< card link="docs" title="Docs" icon="book-open" >}}
   {{< card link="about" title="About" icon="user" >}}
 {{< /cards >}}
