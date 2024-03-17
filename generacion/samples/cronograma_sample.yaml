@@ -1,0 +1,51 @@
+primerdia:
+  1: 2024-03-11
+  2: 2024-03-13
+semanas:
+  1:
+    1:
+      videos:
+        teoricos:
+          intro: [0]
+          1: [1,2]
+        practicos:
+          1: [1]
+    2:
+      videos:
+        teoricos:
+          2: [1]
+        practicos:
+          2: [2,3,4]
+  2:
+    1:
+      videos:
+        teoricos:
+          2: [4,5]
+    2:
+      videos:
+        teoricos:
+          R: [0]
+        practicos:
+          2: [5]
+  3:
+    1:
+      feriado:
+        puente: 5/7
+        motivo: Día Internacional de la Pastafrola
+    2:
+      videos:
+        teoricos:
+          6: [1,2]
+  4:
+    1:
+      repaso: true
+    2:
+      feriado:
+        motivo: Conmemoración de la Chaucha
+  5:
+    1:
+      videos:
+        teoricos:
+          8: [1]
+    2:
+      repaso: true

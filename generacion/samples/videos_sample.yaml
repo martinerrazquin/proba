@@ -1,0 +1,111 @@
+teoricos:
+  intro:
+    0:
+      id: ahdkjasdkasd
+      title: Introducción
+      topics: 
+        - Introducción a la materia
+  R:
+    0:
+      id: aksldaslda
+      playlist: true
+      title: "Aprendiendo R"
+      topics: 
+        - Introducción a la simulación
+  1:
+    1:
+      id: asdasda_sdawa2
+      topics:
+        - topico 1.1.1
+        - topico 1.1.2
+        - topico 1.1.3
+    2:
+      id: xsaxasd-asda
+      topics:
+        - topico 1.2.1
+        - topico 1.2.2
+        - topico 1.2.3
+  2:
+    1:
+      id: LmasdajeWN
+      topics:
+        - topico 2.1.1
+        - topico 2.1.2
+        - topico 2.1.3
+        - topico 2.1.4
+        - topico 2.1.5
+    4:
+      id: alsdkasdk
+      topics: 
+        - topico 2.4
+    5:
+      id: xsawafa
+      topics:
+        - topico 2.5.1
+        - topico 2.5.2
+        - topico 2.5.3
+        - topico 2.5.4
+  6:
+    1:
+      id: xaASDASA
+      title: Capítulo 6
+      topics:
+        - Bernoulli y la Piedra Estocástica
+    2:
+      id: xaszzzq222
+      title: Capítulo 6 - Bonus track
+  8:
+    1:
+      id: xagfarweas
+      title: Capítulo 8
+      topics:
+        - Una campana no es algo normal
+        - ¿El teorema es lo central o el límite?
+practicos:
+  1:
+    1:
+      id: xaawead2ad
+    2:
+      id: ax32ag23
+    3:
+      id: 4ga243ga24a
+    4:
+      id: ag24a2gwg3
+    5:
+      id: e7ee56w
+  2:
+    1:
+      id: m7dfud6r7a
+    2:
+      id: 7md8m7x-
+    3:
+      id: adabawbea
+    4:
+      id: babads-8
+    5:
+      id: abab6brbe
+    6:
+      id: gsmm3srs3b
+  3:
+    1:
+      id: abbqw5tvw5
+    2:
+      id: ca235c4c
+  5:
+    1:
+      id: cq4r5qc4cq
+    2:
+      id: cw56c5q5
+    3:
+      id: cqcaeac2ac2
+    4:
+      id: cat4ca_dta
+    5:
+      id: adsaew324_
+  7:
+    1:
+      id: adaedae2a
+    2:
+      id: dasdaxca1ax1
+    3:
+      id: az-139k1-_a
