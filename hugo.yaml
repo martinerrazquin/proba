@@ -28,7 +28,7 @@ menu:
       pageRef: /about
       weight: 3
     - name: Contact ↗
-      url: "https://github.com/martinerrazquin"
+      url: "https://www.linkedin.com/in/martinerrazquin"
       weight: 4
     - name: Search
       weight: 5
