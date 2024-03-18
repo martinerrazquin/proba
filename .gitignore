@@ -7,5 +7,6 @@ resources/
 .vscode/
 
 # Cosas de generacion de las paginas
-generacion/cronograma
-generacion/videos.yaml
+generacion/cronogramas
+generacion/venv/
+generacion/data
