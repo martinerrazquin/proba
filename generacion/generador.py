@@ -5,6 +5,9 @@ from jinja2 import Environment, PackageLoader, FileSystemLoader, select_autoesca
 import datetime
 import argparse
 
+# Leer bajo su propio riesgo, esto esta todo megahardcodeado
+# Lo hice apurado, no se aceptan quejas!
+
 def datefmt(value, format="%d/%m/%Y"):
     return value.strftime(format)
 

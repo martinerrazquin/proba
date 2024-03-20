@@ -5,7 +5,7 @@ toc: false
 
 ## ¿A quién está dirigido esto?
 
-Esto está principalmente pensado para el `curso 16 (González)` de la materia `81.16 Probabilidad` de la Facultad de Ingeniería de la Universidad de Buenos Aires (FIUBA).
+Esto está principalmente pensado para el `curso 16 (González)` de la materia `81.16 Probabilidad` de la Facultad de Ingeniería de la Universidad de Buenos Aires (FIUBA). Si sos de otro curso y también te sirve, excelente!
 
 ## Background
 
@@ -16,7 +16,7 @@ Esto está principalmente pensado para el `curso 16 (González)` de la materia `
 Esto se originó de una suma de pequeñas causas:
 1. Teníamos alumnos de intercambio que no estaban pudiendo utilizar el campus.
 2. Algunos alumnos tenían dificultades para cargar los videos desde la página general en el campus por cómo se embeben.
-3. Interés mío, a nivel meramente personal, en aprender a utilizar Hugo y seleccionar un *theme* simple, pero no *bare-bones*, que permita flexibilidad entre cosas como docencia, documentación técnica, portfolio y research.
+3. Interés mío, a nivel meramente personal, en aprender a utilizar herramientas como Hugo y Jinja.
 
 ## Links útiles
 
