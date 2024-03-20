@@ -17,12 +17,17 @@ def embed_yt(vd, is_theory):
     return f'{{{{< {kind} id="{vd["id"]}" title="{title}" >}}}}'
 
 def expand_list(ej_list):
-    res = set()
-    for ej in ej_list:
-        if isinstance(ej, int):
-            ej = (ej,ej)
-        expanded = list(range(ej[0],ej[1]+1))
-        res |= set(expanded)
+    try:
+        res = set()
+        for ej in ej_list:
+            if isinstance(ej, int):
+                ej = (ej,ej)
+            expanded = list(range(ej[0],ej[1]+1))
+            res |= set(expanded)
+    except Exception as e:
+        print(e)
+        print(ej_list)
+        raise ValueError()
     return sorted(list(res))
 
 def compile_list(expanded_list):
@@ -50,15 +55,20 @@ def format_one(chapter, ex):
         return f"{chapter}.{ex}"
     return f"**{n(ex[0])}** al **{n(ex[1])}**" if isinstance(ex, tuple) else f"**{n(ex)}**"
 
+def process_one_exs(ejs, chapter):
+    # special cases:
+    if "todo" in ejs:
+        return f"Toda la guía **{chapter}**"
+    if "resto" in ejs:
+        return f"Resto de la guía **{chapter}**"
+    # expand, then compress, then format
+    ejs = compile_list(expand_list(ejs))
+    return ", ".join(format_one(chapter, ex) for ex in ejs)
+
 def compile_ejs(ej_list):
-    # recompile ej by chapter
-    ej_list = {
-        chapter: compile_list(expand_list(ejs)) 
-        for chapter, ejs in ej_list.items()
-    }
     # join multiple chapters by colon, exercises by comma
     return ". ".join([
-        ",".join(format_one(ch, ex) for ex in exs)
+        process_one_exs(exs, ch)
         for ch, exs in ej_list.items()
     ]) + "."
 
@@ -126,6 +136,17 @@ def apply_next_prev(classes):
         prev_c['next'] = fmt(next_c)
         next_c['prev'] = fmt(prev_c)
 
+def apply_exercises(classes):
+    for lesson in classes:
+        exs = {}
+        if 'videos' not in lesson:
+            continue
+        for vid in lesson['videos']['teoricos']:
+            chapter = vid['chapter']
+            v = exs.get(chapter, [])
+            exs[chapter] = v + vid.get('ejercicios', [])
+        lesson['ejercicios'] = {k:v for k,v in exs.items() if len(v)>0}
+
 def process_data(classes_data, videos_data):
     class_weeks = classes_data['semanas']
 
@@ -150,6 +171,9 @@ def process_data(classes_data, videos_data):
 
     # apply next/prev
     apply_next_prev(classes)
+
+    # apply exercises
+    apply_exercises(classes)
 
     return classes
 
