@@ -31,7 +31,7 @@ Esto se originó de una suma de pequeñas causas:
 * **Novedades generales (a nivel materia):** campus general
 * **Entregas de la segunda parte:** campus del curso
 * **Foros para preguntar:** campus del curso
-* **Fechas de exámenes (parcial y final):** campus general
+* **Fechas de exámenes (parcial y final):** campus general, y acá abajo los links a eventos de Google Calendar
 * **Ejercicios de clase:** campus del curso
 * **Fechas de clases de consulta:** campus general
 * **Exámenes viejos:** campus general
@@ -44,6 +44,16 @@ Esto se originó de una suma de pequeñas causas:
 * **Diapositivas de Juan:** campus del curso
 * **El material de esta página:** fijate arriba, donde dice "Clases"
 * **Para poner esto en modo oscuro/claro:** fijate abajo a la izquierda, hay un botoncito con un sol/luna
+
+## Otros
+
+### Fechas de parcial en Google Calendar
+
+Haciendo click en los links de abajo podés agregar a Google Calendar los eventos de los parciales de este cuatri.
+
+* 1º oportunidad: [link acá{{< icon "plus-circle" >}}](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NTBoMDk4MWswaG5qazc1aGU2Y21kMWFldDcgY19kZjJjZTBiMWVkNDY5YzI4MGRkNGNjZDU0YWY4ODBhMjVhOTA5ZWU1ZjU1YTdhYjI4ZTRjODZiNWZjMDhmZDg0QGc&tmsrc=c_df2ce0b1ed469c280dd4ccd54af880a25a909ee5f55a7ab28e4c86b5fc08fd84%40group.calendar.google.com)
+* 1º recu: [link acá{{< icon "plus-circle" >}}](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=M2tkdDhnaGZyNnJnM29ybTRuanY0ZHJhZWkgY19kZjJjZTBiMWVkNDY5YzI4MGRkNGNjZDU0YWY4ODBhMjVhOTA5ZWU1ZjU1YTdhYjI4ZTRjODZiNWZjMDhmZDg0QGc&tmsrc=c_df2ce0b1ed469c280dd4ccd54af880a25a909ee5f55a7ab28e4c86b5fc08fd84%40group.calendar.google.com)
+* 2º recu: [link acá{{< icon "plus-circle" >}}](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NDNsaTNnbGdlZTI4bnV1ZW9uaDVtZGpuNnEgY19kZjJjZTBiMWVkNDY5YzI4MGRkNGNjZDU0YWY4ODBhMjVhOTA5ZWU1ZjU1YTdhYjI4ZTRjODZiNWZjMDhmZDg0QGc&tmsrc=c_df2ce0b1ed469c280dd4ccd54af880a25a909ee5f55a7ab28e4c86b5fc08fd84%40group.calendar.google.com)
 
 ## Explore
 
