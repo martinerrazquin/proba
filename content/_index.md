@@ -52,7 +52,7 @@ Esto se originó de una suma de pequeñas causas:
 Haciendo click en los links de abajo podés agregar a Google Calendar los eventos de los parciales de este cuatri.
 
 * 1º oportunidad: [link acá{{< icon "plus-circle" >}}](https://www.google.com/calendar/render?action=TEMPLATE&text=Probabilidad+Parcial+-+1%C2%BA+oportunidad&dates=20240601T120000Z%2F20240601T160000Z)
-* 1º recu: [link acá{{< icon "plus-circle" >}}]https://www.google.com/calendar/render?action=TEMPLATE&text=Probabilidad+Parcial+-+1%C2%BA+recu&dates=20240622T120000Z%2F20240622T160000Z)
+* 1º recu: [link acá{{< icon "plus-circle" >}}](https://www.google.com/calendar/render?action=TEMPLATE&text=Probabilidad+Parcial+-+1%C2%BA+recu&dates=20240622T120000Z%2F20240622T160000Z)
 * 2º recu: [link acá{{< icon "plus-circle" >}}](https://www.google.com/calendar/render?action=TEMPLATE&text=Probabilidad+Parcial+-+2%C2%BA+recu&dates=20240704T120000Z%2F20240704T160000Z)
 
 ## Explore
