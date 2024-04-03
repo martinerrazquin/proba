@@ -59,5 +59,5 @@ Haciendo click en los links de abajo podés agregar a Google Calendar los evento
 
 {{< cards >}}
   {{< card link="clases" title="Clases" icon="library" >}}
-  {{< card link="about" title="About" icon="user" >}}
+  {{< card link="ejercicios" title="Ejercicios de Clase" icon="variable" >}}
 {{< /cards >}}

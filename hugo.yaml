@@ -21,23 +21,26 @@ menu:
     - name: Clases
       pageRef: /clases
       weight: 1
+    - name: Ejercicios
+      pageRef: /ejercicios
+      weight: 2
     - name: About
       pageRef: /about
-      weight: 2
+      weight: 3
     - name: Contact ↗
       url: "https://www.linkedin.com/in/martinerrazquin"
-      weight: 3
-    - name: Search
       weight: 4
+    - name: Search
+      weight: 5
       params:
         type: search
     - name: GitHub
-      weight: 5
+      weight: 6
       url: "https://github.com/martinerrazquin"
       params:
         icon: github
     - name: YouTube
-      weight: 6
+      weight: 7
       url: "http://www.youtube.com/@martinerrazquin"
       params:
         icon: youtube
