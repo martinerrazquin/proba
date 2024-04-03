@@ -16,14 +16,14 @@ Sea W el peso de ciertos huevos (en gramos), $W \sim \mathcal{U}(50,80)$. Se con
 
 ## Ejercicio 2
 
-El tiempo (en años) de funcionamiento sin fallas de una pieza mecánica es una variable aleatoria $T$ con función de intensidad de fallas $\lambda(t) = t^{-1/2}\mathbf{1}\{t>0\}$. Hallar la función de densidad del tiempo de funcionamiento sin fallas de una pieza, sabiendo que funcionó por más de dos años.
+El tiempo (en años) de funcionamiento sin fallas de una pieza mecánica es una variable aleatoria $T$ con función de intensidad de fallas $\lambda(t) = t^{-1/2}\mathbf{1}\\{t>0\\}$. Hallar la función de densidad del tiempo de funcionamiento sin fallas de una pieza, sabiendo que funcionó por más de dos años.
 
 ## Ejercicio 3
 
 Sea $X$ una variable aleatoria con función de distribución 
 
 $$
-F_X(x) = \frac{x}{5}\mathbf{1}\{1\leq x<2\} + \frac{3}{5}\mathbf{1}\{2\leq x<3\} + \frac{x+1}{5}\mathbf{1}\{3\leq x <4\} + \mathbf{1}\{4\leq x\}.
+F_X(x) = \frac{x}{5}\mathbf{1}\\{1\leq x<2\\} + \frac{3}{5}\mathbf{1}\\{2\leq x<3\\} + \frac{x+1}{5}\mathbf{1}\\{3\leq x <4\\} + \mathbf{1}\\{4\leq x\\}.
 $$
 
 Hallar $F_{X|X>2}(x)$.
