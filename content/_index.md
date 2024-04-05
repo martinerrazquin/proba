@@ -16,7 +16,7 @@ Esto está principalmente pensado para el `curso 16 (González)` de la materia `
 Esto se originó de una suma de pequeñas causas:
 1. Teníamos alumnos de intercambio que no estaban pudiendo utilizar el campus.
 2. Algunos alumnos tenían dificultades para cargar los videos desde la página general en el campus por cómo se embeben.
-3. Interés mío, a nivel meramente personal, en aprender a utilizar herramientas como Hugo y Jinja.
+3. Interés mío, a nivel meramente personal, en aprender a utilizar herramientas como [Hugo](https://gohugo.io/) y [Jinja](https://jinja.palletsprojects.com/).
 
 ## Links útiles
 
@@ -32,7 +32,7 @@ Esto se originó de una suma de pequeñas causas:
 * **Entregas de la segunda parte:** campus del curso
 * **Foros para preguntar:** campus del curso
 * **Fechas de exámenes (parcial y final):** campus general, y acá abajo los links a eventos de Google Calendar
-* **Ejercicios de clase:** campus del curso
+* **Ejercicios de clase:** acá, y también en el campus del curso
 * **Fechas de clases de consulta:** campus general
 * **Exámenes viejos:** campus general
 * **Aulas y horarios de los cursos:** campus general
@@ -55,7 +55,7 @@ Haciendo click en los links de abajo podés agregar a Google Calendar los evento
 * 1º recu: [link acá{{< icon "plus-circle" >}}](https://www.google.com/calendar/render?action=TEMPLATE&text=Probabilidad+Parcial+-+1%C2%BA+recu&dates=20240622T120000Z%2F20240622T160000Z)
 * 2º recu: [link acá{{< icon "plus-circle" >}}](https://www.google.com/calendar/render?action=TEMPLATE&text=Probabilidad+Parcial+-+2%C2%BA+recu&dates=20240704T120000Z%2F20240704T160000Z)
 
-## Explore
+## Explorar
 
 {{< cards >}}
   {{< card link="clases" title="Clases" icon="library" >}}

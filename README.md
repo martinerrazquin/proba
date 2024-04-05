@@ -7,5 +7,4 @@ Página con material para la materia que dicto en [FIUBA](fi.uba.ar).
 ## Stack
 
 * Página hecha con el *theme* [Hextra](https://github.com/imfing/hextra) de [Hugo](https://gohugo.io/).
-* Contenido generado en Python en base a templates custom de [Jinja2](https://jinja.palletsprojects.com).
-
+* Contenido generado en Python en base a templates custom de [Jinja](https://jinja.palletsprojects.com).
