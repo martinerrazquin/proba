@@ -6,46 +6,25 @@ math: true
 
 ## Ejercicio 1
 
-Una computadora ejecuta un programa en dos etapas. Los tiempos (en minutos) que demoran la primera y segunda etapas son variables aleatorias $X$ e $Y$ con distribución uniforme sobre la región  $\\{(x,y)\in\mathbb{R}^2:0<x<10,0<y<x\\}$. Calcular la probabilidad de que el programa completo demore entre 8 y 12 minutos en ejecutarse.
-
+Se extraen al azar dos bolillas de una urna que contiene bolillas así numeradas: 1, 1, 2, 2, 5. Sea $X$ la suma de los valores obtenidos. Calcular $\mathbf{E}[X]$ y $\mathbf{Var}(X)$.
 
 ## Ejercicio 2
 
-Juana y Pedro salieron a tomar cerveza. Sean $X$ e $Y$ las cantidades de litros de cerveza que tomaron Juana y Pedro respectivamente. La densidad conjunta de $X$ e $Y$ es:
-	
-$$
-f_{X,Y}(x,y)=2\cdot \mathbf{1}\\{0<x<y<1\\}
-$$
+Sea $X$ una variable aleatoria con función de densidad
 
-
-1. Hallar las densidades marginales de $X$ e $Y$.
-2. Calcular la probabilidad de que entre ambos hayan tomado más de 1 litro de cerveza y Pedro haya tomado menos de 0.75 litros.
-
+$$f_X(x)= \frac{x}{25}\mathbf{1} \\{0<x<5\\}+ \left(\frac{2}{5}- \frac{x}{25}\right)\mathbf{1} \\{5<x<10\\}$$
+Calcular $\mathbf{E}[X]$ y $\mathbf{E}[X|X>5]$ sin hacer cuentas.
 
 ## Ejercicio 3
 
-Sea $(X,Y)$ un vector aleatorio con función de probabilidad conjunta:
-
-$$
-p_{X,Y}(x,y)=\frac{x^2y}{36} \mathbf{1}\\{ x \in \\{-1,1,2\\}, y \in \\{1,2,3\\}\\}
-$$
-
-1. Hallar las funciones de probabilidad marginales de $X$ e $Y$.
-2. Sean $U=\min (X,Y)$  y $V=\max (X,Y)$. Calcular $\mathbf{P}(U=1|V=2)$.
-
+Se realiza el experimento de tirar un dado hasta que sale el primer 6. Si se sabe que fueron necesarios menos de cinco tiros, calcular el número esperado de tiros hasta finalizar el experimento.
 
 ## Ejercicio 4
 
-El tiempo (en horas) que Tomás pasa mirando su serie favorita y escuchando música durante el fin de semana son variables aleatorias X e Y respectivamente, con función de densidad conjunta:
-
-$$
-f_{X,Y}(x,y)=0.25 e^{-0.5(x+y)} \mathbf{1}\\{0<x, 0<y\\}
-$$
-
-1. Hallar las densidades marginales de $X$ e $Y$.
-2. Calcular la probabilidad de que en un fin de semana pase más tiempo mirando la serie que escuchando música.
+La potencia disipada por un circuito eléctrico es $Y=0.5X^2$, donde $X$ es una variable aleatoria con distribución uniforme sobre el intervalo $(8,12)$. Calcular $\mathbf{E}[Y]$.
 
 
 ## Ejercicio 5
 
-Un helicóptero que cuenta con dos motores debe realizar un vuelo de 15 minutos. Los tiempos hasta la falla de cada motor son variables aleatorias independientes con distribución uniforme entre 5 y 25 minutos. Si alguno de los motores falla, el helicóptero no puede completar el vuelo. Sabiendo que ambos motores funcionaban a los 10 minutos, calcular la probabilidad de que el helicóptero no pueda completar el vuelo.
+El tiempo (en horas) logrado por un maratonista es $X = 2 + T$ ; donde $T$ es una variable aleatoria con distribución exponencial de media 1/3. Hallar el tiempo medio logrado por el maratonista, si se sabe que es superior a 140 minutos.
+
