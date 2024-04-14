@@ -6,25 +6,23 @@ math: true
 
 ## Ejercicio 1
 
-Se extraen al azar dos bolillas de una urna que contiene bolillas así numeradas: 1, 1, 2, 2, 5. Sea $X$ la suma de los valores obtenidos. Calcular $\mathbf{E}[X]$ y $\mathbf{Var}(X)$.
+Se cortan chapas rectangulares de área $3$ $m^2$. La longitud (en metros) de la base de las chapas es una variable aleatoria $X$ con densidad
+$$
+f_X(x)=\frac{2}{3}x \mathbf{1}\\{1<x<2\\}
+$$
+Hallar la covarianza entre la base y la altura de las chapas.
 
 ## Ejercicio 2
 
-Sea $X$ una variable aleatoria con función de densidad
+Se arrojan dos dados piramidales equilibrados con los números 1, 2, 3, 4 en sus caras. Sean $U$ el mínimo de los resultados, $V$ el máximo y $W$ su suma.
 
-$$f_X(x)= \frac{x}{25}\mathbf{1} \\{0<x<5\\}+ \left(\frac{2}{5}- \frac{x}{25}\right)\mathbf{1} \\{5<x<10\\}$$
-Calcular $\mathbf{E}[X]$ y $\mathbf{E}[X|X>5]$ sin hacer cuentas.
+1. Calcular la covarianza entre $V$ y $W$.
+2. Hallar la ecuación de la recta de regresión de $V$ dado $U$.
 
 ## Ejercicio 3
 
-Se realiza el experimento de tirar un dado hasta que sale el primer 6. Si se sabe que fueron necesarios menos de cinco tiros, calcular el número esperado de tiros hasta finalizar el experimento.
+La duración en horas de un corte de luz en un edificio es una variable aleatoria $T$ de media 4. ¿Cómo deben ser las duraciones $t$ de una lámpara de emergencia para tener una probabilidad mayor a $0.5$ de que la lámpara funcione durante todo un corte de luz?
 
 ## Ejercicio 4
 
-La potencia disipada por un circuito eléctrico es $Y=0.5X^2$, donde $X$ es una variable aleatoria con distribución uniforme sobre el intervalo $(8,12)$. Calcular $\mathbf{E}[Y]$.
-
-
-## Ejercicio 5
-
-El tiempo (en horas) logrado por un maratonista es $X = 2 + T$ ; donde $T$ es una variable aleatoria con distribución exponencial de media 1/3. Hallar el tiempo medio logrado por el maratonista, si se sabe que es superior a 140 minutos.
-
+Para una campaña de marketing se desea estimar la cantidad de personas que consumen productos de la marca *Canolli*. Para ello se entrevistan $n$ individuos al azar y se halla la proporción de los que consumen  productos de la marca. ¿Qué valor debe tener $n$ para que esta proporción no difiera de la real en mas de 0.05, con probabilidad mayor o igual a 0.99?
