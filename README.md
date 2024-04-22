@@ -2,7 +2,7 @@
 
 [![Deploy Hugo site to Pages](https://github.com/martinerrazquin/proba/actions/workflows/pages.yaml/badge.svg)](https://github.com/martinerrazquin/proba/actions/workflows/pages.yaml/badge.svg)
 
-Página con material para la materia que dicto en [FIUBA](fi.uba.ar).
+Página con material para la materia que dicto en [FIUBA](https://fi.uba.ar/).
 
 ## Stack
 
