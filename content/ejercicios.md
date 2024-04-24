@@ -4,6 +4,18 @@ toc: false
 math: true
 ---
 
+{{< callout type="info" >}}
+  Es posible que omitamos algun/os ejercicio/s para poder llegar con el tiempo, en función de cuáles queden ya cubiertos por ejemplos realizados en la teórica.
+{{< /callout >}}
+
+## Previo
+
+Sean $X$ e $Y$ dos variables aleatorias independientes con funciones de densidad marginales:
+$$
+f_X(x)=xe^{-x^2/2} \mathbf{1} \\{0 \leq x\\}, \qquad f_Y(y)= \frac{1}{2 \pi}\mathbf{1} \\{0<y<2\pi\\}
+$$
+Sea $(U,V) = (X \cos(Y),X \sin(Y))$. Hallar las función de densidad conjunta del vector aleatorio $(U, V )$.
+
 ## Ejercicio 1
 
 La probabilidad de acertar a un blanco es $\frac{1}{5}$. Se realizan 10 tiros independientes y se cuenta la cantidad de aciertos. Sean $X$ la cantidad total de aciertos en los 10 tiros, e $Y$ la cantidad de aciertos en el primer tiro. Hallar la distribución de $Y|X=x$.
