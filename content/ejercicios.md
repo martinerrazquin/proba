@@ -1,5 +1,5 @@
 ---
-title: Ejercicios de Clase 8/5
+title: Ejercicios de Clase 13/5
 toc: false
 math: true
 ---
