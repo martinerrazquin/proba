@@ -8,13 +8,6 @@ math: true
   Los que tienen un (*) los hacemos si llegamos con el tiempo (probablemente no).
 {{< /callout >}}
 
-## Previo
-
-Un radioisótopo emite partículas alfa de acuerdo con un proceso de Poisson de intensidad 4 por hora. 
-
-1. Calcular la probabilidad de que la tercer partícula después de las 9:00 haya sido emitida después de las 10:00.
-2. ¿Cómo cambia la probabilidad anterior si se sabe que en los primeros 15 minutos después de las 9:00 se emitió exactamente 1 partícula?
-
 ## Ejercicio 1
 
 Los pedidos de comida rápida llegan a una central telefónica de acuerdo con un proceso Poisson de intensidad 0.5 por minuto. Cada pedido es registrado con probabilidad 0.8. Calcular la probabilidad de que entre las 22:00 y las 22:10 se hayan registrado 5 pedidos.
