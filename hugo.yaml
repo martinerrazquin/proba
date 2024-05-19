@@ -24,8 +24,8 @@ menu:
     - name: Ejercicios
       pageRef: /ejercicios
       weight: 2
-    - name: About
-      pageRef: /about
+    - name: ICD
+      pageRef: /icd
       weight: 3
     - name: Search
       weight: 4
