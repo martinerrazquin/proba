@@ -21,11 +21,11 @@ menu:
     - name: Clases
       pageRef: /clases
       weight: 1
-    - name: Ejercicios
-      pageRef: /ejercicios
-      weight: 2
     - name: ICD
       pageRef: /icd
+      weight: 2
+    - name: R
+      pageRef: /simulacion
       weight: 3
     - name: Search
       weight: 4
