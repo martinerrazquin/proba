@@ -1,11 +1,9 @@
 ---
 title: Estructuras comunes
 weight: 3
-toc: false
-math: true
 ---
 
-## Media cumulativa
+## Media acumulativa
 
 Suponiendo una muestra $(X_1, X_2, \dots, X_n)$ la estimación acumulativa de la esperanza, es decir todas las estimaciones de $\mathbf{E}[X]$ para $k=1,\dots,n$, se puede hacer con:
 
@@ -16,6 +14,8 @@ cummean <- function(muestra){
     )
 }
 ```
+
+Esto suele ser especialmente útil para, vía `plot`, mostrar cómo una estimación converge al valor teórico (generalmente señalado con un `abline` horizontal de otro color).
 
 ### Extensiones
 
@@ -36,7 +36,7 @@ Dejamos a cargo del alumno entender cómo funciona el código de arriba.
 En términos generales para estimar $P(B|A)$ conviene descomponerlo (siempre que $P(A)>0$) en
 
 $$
-\hat{P(B|A)} \approx \frac{\hat{P(A \cap B)}}{\hat{P(A)}} = \frac{\#(A \cap B)}{\#(A)}
+\widehat{P(B|A)} \approx \frac{\widehat{P(A \cap B)}}{\widehat{P(A)}} = \frac{\\#(A \cap B)}{\\#(A)}
 $$
 
 que en términos de código resulta simular el experimento muchas veces, generar dos vectores de ocurrencias `ocurre_A` y `ocurre_B` y calcular

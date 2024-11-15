@@ -48,6 +48,9 @@ menu:
         icon: youtube
 
 params:
+  page:
+    width: normal
+
   navbar:
     displayTitle: true
     displayLogo: false
