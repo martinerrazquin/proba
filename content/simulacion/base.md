@@ -167,7 +167,7 @@ Algo bueno es que una vez establecido el código para generar una realización d
   {{< /tab >}}
 {{< /tabs >}}
 
-Si además hicimos la tarea de encapsular la realización de un experimento en una función, el código se va a ver así:
+Si además hicimos la tarea de encapsular la realización de un experimento en una función, el código **en vez de lo de arriba** se va a ver así:
 
 {{< tabs items="for,replicate" >}}
   {{< tab >}}
