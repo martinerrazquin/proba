@@ -1,6 +1,6 @@
 ---
 title: Estructuras comunes
-weight: 3
+weight: 2
 ---
 
 ## Media acumulativa
