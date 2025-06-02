@@ -34,6 +34,9 @@ simular_1 <- function(){
 ocurre_A <- replicate(Nrep, {
     simular_1()
 })
+
+# estimamos
+mean(ocurre_A)
 ```
 
 
