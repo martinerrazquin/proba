@@ -85,7 +85,7 @@ A
 
 a ser así al medir A y B:
 
-```r
+```r {hl_lines=[11,12,14,15,17,18]}
 # extraemos 8 bolas al azar sin reposición
 extr <- sample(urna, size=8, replace=FALSE)
 
@@ -141,11 +141,11 @@ Suponiendo que encapsulamos en una función `simular_1()` la realización de un 
   {{< tab >}}
 
   ```r
-  # definimos el vector vacío
+  # definimos los vectores vacíos
   ocurre_A <- c()
   ocurre_B <- c()
   
-  # de a 1 lo rellenamos
+  # de a 1 los rellenamos
   for(i in 1:Nrep){
     # obtenemos una realización, lo guardamos en variable auxiliar
     # resultado es un vector de 2 elementos (A,B)
