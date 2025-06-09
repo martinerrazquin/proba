@@ -3,10 +3,6 @@ title: Funciones útiles
 weight: 5
 ---
 
-{{< callout type="warning" >}}
- Página en construcción: le faltan cosas!
-{{< /callout >}}
-
 {{< callout type="info" >}}
  Siempre recordá que podés acceder a la documentación de una función usando ? o help. Por ejemplo, para ver la documentación de la función sample podés escribir `?sample` o `help(sample)`
 {{< /callout >}}
@@ -26,6 +22,7 @@ El operador `:` sirve para generar todos los números desde el primero hasta el 
 ```
 
 También funciona con variables y mezclando variables con constantes:
+
 ```r
 # Definimos las variables
 a <- 4
@@ -42,13 +39,17 @@ b:10 # 6 7 8 9 10
 (a-1):(b+2) # 3 4 5 6 7 8
 ```
 
-
 ### seq
 
+Se utiliza cuando queremos generalizar `a:b` para que los saltos no sean de a 1. Utiliza los parámetros `from`, `to` y `by`, que son desde dónde, hasta dónde y de a cuánto respectivamente.
+
 ```r
+seq(1,10,2) # de 1 a 10 de a 2: 1 3 5 7 9
 
+seq(1,10,3) # de 1 a 10 de a 3: 1 4 7 10
+
+seq(10,1000,100) # 10 110 210 ... 810 910
 ```
-
 
 ### rep
 
@@ -71,7 +72,6 @@ rep(c(1,2,5), times=c(2,2,1))
 
 Esta función es muy importante porque muchas acciones se pueden pensar como sacar bolas al azar de una urna. Por ejemplo, tirar un dado de 6 caras y observar el resultado es equivalente a sacar 1 bola al azar de una urna que tiene las bolas numeradas 1,2,3,4,5,6. Si quisiera tirar dos veces el mismo dado, sería equivalente a sacar 2 bolas al azar _con reposición_ de la urna. Incluso si fuera un dado desequilibrado, la función `sample` tiene un parámetro para controlar la probabilidad de cada resultado.
 
-
 El siguiente ejemplo sirve para simular tirar 3 veces un dado de 4 caras que tiene probabilidades 0.3 de salir el 1 y el 4, y 0.15 de salir el 2 y el 3.
 
 ```r
@@ -91,7 +91,6 @@ sample(
 
 Para cada distribución de las "famosas" existen varias funciones de utilidad que empiezan con las letras _r_, _p_, _d_ o _q_ y siguen con el nimbre de la distribución. En particular, las que empiezan con _r_ sirven para simular valores de esa distribución. Los parámetros que utilizan son siempre cuántos _Nrep_ valores queremos (este siempre es el primero) y los parámetros de la distribución.
 
-
 ```r
 
 runif(1000) # 1000 valores de U(0,1)
@@ -105,13 +104,21 @@ rexp(10000, 3) # 10000 valores de Exp(3)
 
 Puede que algunas tengan una definición un poco diferente o usen parametrizaciones diferentes, por lo que es importante siempre chequear la documentación. Por ejemplo, la Geométrica y la Pascal están definidas como la cantidad de _fracasos_ en vez de la cantidad de _intentos_ hasta 1 y $k$ éxitos respectivamente. También la Normal está parametrizada con la media y el desvío estándar en vez de la media y la varianza.
 
-
 ## Para hacer algo muchas veces
 
 ### replicate
 
+Esta función se utiliza cuando uno quiere repetir la ejecución de código _muchas veces_ y guardar sus resultados en un vector/matriz. Los parámetros que recibe son la cantidad de repeticiones (`Nrep`) y un bloque de código entre llaves a ejecutar. Es importante hacerse una idea como que cada una de las _Nrep_ realizaciones ocurre _en paralelo_. Por ejemplo, el siguiente código (que está **mal**):
+
 ```r
+x <- 0
+res <- replicate(5, {
+    x <- x + 1
+    x
+})
 ```
+
+guarda en la variable `res` un vector `(1 1 1 1 1)`. Si la ejecución fuera secuencial, el resultado debería haber sido algo tipo `(1 2 3 4 5)`.
 
 ### sapply
 
