@@ -217,7 +217,7 @@ $$
 P(A) = \frac{\sum_{r=1}^8\sum_{a=0}^{r-1} \binom{20}{r}\binom{50}{a}\binom{30}{8-a-r}}{\binom{100}{8}} \approx 0.0906
 $$
 
-Para mostrar que la estimación converge uno debería hacer la media (usando `mean`) de las primeras _k_ simulaciones con _k_ de 1 a Nrep, y hacer un `plot`. Adicionalmente, conviene usar `abline` para trazar una recta horizontal (generalmente de otro color, para que se distinga) sobre el valor teórico. Nuevamente, si uno hace uso de la función `cummean` definida en la página de [_*_estructuras_comunes_](/content/simulacion/estructuras_comunes.md) son 2 renglones.
+Para mostrar que la estimación converge uno debería hacer la media (usando `mean`) de las primeras _k_ simulaciones con _k_ de 1 a Nrep, y hacer un `plot`. Adicionalmente, conviene usar `abline` para trazar una recta horizontal (generalmente de otro color, para que se distinga) sobre el valor teórico. Nuevamente, si uno hace uso de la función `cummean` definida en la página de [_estructuras_comunes_](/content/simulacion/estructuras_comunes.md) son 2 renglones.
 
 ```r
 plot(
@@ -238,6 +238,6 @@ Y el resultado es algo así:
 
 Desarrollamos, utilizando un ejemplo, un esquema de trabajo general que nos va a servir para cualquier ejercicio en el que necesitemos simular para realizar una estimación. También mostramos, sobre el mismo ejemplo, cómo hacer un gráfico de convergencia de la estimación.
 
-La próxima página, [_Múltiples mediciones_](/content/simulacion/multiples_salidas.md) cubre cómo extender lo visto a cuando en un mismo experimento queremos medir más de un evento o variable aleatoria, por ejemplo para estimar la probabilidad de una intersección o una covarianza entre variables.
+La próxima página, [_Múltiples mediciones_](/content/simulacion/multiples_salidas.md), cubre cómo extender lo visto a cuando en un mismo experimento queremos medir más de un evento o variable aleatoria, por ejemplo para estimar la probabilidad de una intersección o una covarianza entre variables.
 
 El resto del material va a tratar sobre cuestiones _útiles_ más que necesarias.
