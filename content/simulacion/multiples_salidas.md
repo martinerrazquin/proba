@@ -193,18 +193,17 @@ Sabemos que si tenemos un vector de ocurrencias de un evento $X$ guardado en una
 mean(ocurre_A[ocurre_B])
 ```
 
-
 ## Sobre condicionales
 
 ### Indexado lógico
 
-Cuando uno hace 
+Cuando uno hace
 
 ```r
 ocurre_A[ocurre_B]
 ```
 
-por atrás lo que ocurre es [*indexado lógico*](https://bookdown.org/ndphillips/YaRrr/logical-indexing.html). La idea es que si a un vector `X` de largo `n` uno le pasa un vector lógico (es decir, con valores TRUE o FALSE) **de igual longitud** `Y`, R interpreta que `X[Y]` significa que el i-ésimo elemento de i, `X[i]` se considera si y sólo si `Y[i]` es TRUE. En términos de código en R, es equivalente a hacer:
+por atrás lo que ocurre es [_indexado lógico_](https://bookdown.org/ndphillips/YaRrr/logical-indexing.html). La idea es que si a un vector `X` de largo `n` uno le pasa un vector lógico (es decir, con valores TRUE o FALSE) **de igual longitud** `Y`, R interpreta que `X[Y]` significa que el i-ésimo elemento de i, `X[i]` se considera si y sólo si `Y[i]` es TRUE. En términos de código en R, es equivalente a hacer:
 
 ```r
 X_sub_Y <- c()
