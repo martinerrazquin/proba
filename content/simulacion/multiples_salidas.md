@@ -83,7 +83,7 @@ A <- n_rojas > n_azules
 A
 ```
 
-a ser así al medir A y B:
+a ser así al medir A y B (lo que cambia está resaltado):
 
 ```r {hl_lines=[11,12,14,15,17,18]}
 # extraemos 8 bolas al azar sin reposición
@@ -192,3 +192,56 @@ Sabemos que si tenemos un vector de ocurrencias de un evento $X$ guardado en una
 ```r
 mean(ocurre_A[ocurre_B])
 ```
+
+
+## Sobre condicionales
+
+### Indexado lógico
+
+Cuando uno hace 
+
+```r
+ocurre_A[ocurre_B]
+```
+
+por atrás lo que ocurre es [*indexado lógico*](https://bookdown.org/ndphillips/YaRrr/logical-indexing.html). La idea es que si a un vector `X` de largo `n` uno le pasa un vector lógico (es decir, con valores TRUE o FALSE) **de igual longitud** `Y`, R interpreta que `X[Y]` significa que el i-ésimo elemento de i, `X[i]` se considera si y sólo si `Y[i]` es TRUE. En términos de código en R, es equivalente a hacer:
+
+```r
+X_sub_Y <- c()
+
+for(i in 1:length(X)){
+    if( Y[i]==TRUE ){
+        X_sub_Y <- c(X_sub_Y, X[i])
+    }
+}
+```
+
+o en Python a hacer:
+
+{{< tabs items="for,list comprehension" >}}
+  {{< tab >}}
+
+  ```python
+  X_sub_Y = []
+  for i in range(len(X)):
+    if Y[i] is True:
+        X_sub_Y.append(X[i])
+  ```
+
+  {{< /tab >}}
+  {{< tab >}}
+
+  ```python
+  X_sub_Y = [x_i for x_i, y_i in zip(X,Y) if y_i is True]
+  ```
+
+  {{< /tab >}}
+{{< /tabs >}}
+
+Algo **muy importante** que se debe destacar es que `X[Y]` **no** tiene el mismo largo que `X`. Podría ser que sí solamente si todos los elementos de `Y` son TRUE, pero lo más común es que no.
+
+En el contexto de simulación de experimentos, esto es importante porque al estimar $P(A|B)$, el _verdadero_ `Nrep` en base al cual vamos a estar estimando va a ser _la cantidad de veces que ocurra $B$_ en nuestras `Nrep` realizaciones.
+
+### Condicionando a eventos de probabilidad 0
+
+En la mayoría de los casos de la materia, cuando condicionamos a un evento lo hacemos sujeto a que ese evento tenga probabilidad positiva. A veces, como cuando queremos estimar la función de regresión $E[Y|X=x]$ con $X$ VA continua, esto no ocurre. En esos casos se utilizan estimaciones por ventanas o _kernels_. Para leer más sobre esto revisar el apunte teórico de Jemina, capítulos 10 y 11.
