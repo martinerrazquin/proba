@@ -5,7 +5,7 @@ weight: 2
 
 ## Problema de ejemplo
 
-Siguiendo el esquema de la sección de _primeros pasos_, vamos a utilizar una variación del ejemplo anterior para aprender la dinámica. Igual que antes, primero vamos a ver la solución completa y luego ir construyendo hasta llegar a la misma.
+Siguiendo el esquema de la sección de [_primeros pasos_](/content/simulacion/base.md), vamos a utilizar una variación del ejemplo anterior para aprender la dinámica. Igual que antes, primero vamos a ver la solución completa y luego ir construyendo hasta llegar a la misma.
 
 El enunciado es muy similar al anterior, con la modificación en negrita:
 

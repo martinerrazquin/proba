@@ -45,7 +45,7 @@ que en términos de código resulta simular el experimento muchas veces, generar
 estim_P_B_dado_A <- sum(ocurre_A & ocurre_B) / sum(ocurre_A)
 ```
 
-Otra forma de hacerlo, cubierta en la página de *Múltiples mediciones*, es directamente truncando:
+Otra forma de hacerlo, cubierta en la página de [*Múltiples mediciones*](/content/simulacion/multiples_salidas.md), es directamente truncando:
 
 ```r
 estim_P_B_dado_A <- mean(ocurre_B[ocurre_A])
